@@ -54,7 +54,7 @@ def batch(filename, outname, n):
 
 if __name__ == '__main__':
     if len(sys.argv) == 2:
-        print('Converting bracketed files.')
+        print('Converting directory', sys.argv[1])
         cvt(sys.argv[1])
     elif len(sys.argv) == 4:
         print('Converting batch files.')
